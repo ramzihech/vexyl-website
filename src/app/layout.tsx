@@ -9,18 +9,28 @@ export const metadata: Metadata = {
   title: "Vexyl — Modern Websites for Qatar Businesses",
   description: "We build fast, beautiful websites for businesses in Doha, Qatar. See your free demo before you pay. Starting at $149.",
   keywords: "web design qatar, doha websites, business website, web development, qatar digital",
+  metadataBase: new URL("https://vexyl.live"),
   openGraph: {
     title: "Vexyl — Modern Websites for Qatar",
     description: "See your free demo website before you pay. Starting at $149.",
-    url: "https://vexyl.qa",
+    url: "https://vexyl.live",
     siteName: "Vexyl",
     locale: "en_QA",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Vexyl — Modern Websites for Qatar Businesses",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Vexyl — Modern Websites for Qatar",
     description: "See your free demo website before you pay. Starting at $149.",
+    images: ["/og-image.png"],
   },
 };
 
